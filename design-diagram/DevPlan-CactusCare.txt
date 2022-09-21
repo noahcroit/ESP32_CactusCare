@@ -1,0 +1,43 @@
+Cont. on IoT Smartfarm@Home / CactusCare
+
+/******************* Basic ControlBox Phase *******************/
+Solenoid Controller
+1. Create 24V Solenoid Driver, consist of
+	- 12V-to-24V Converter with MC34064 @ 1A
+	- Coil ON/OFF Driver with simple N-MOSFET
+	- EN pin for activate converter, IN pin for on/off solenoid
+
+2. Create ESP32 Driver for solenoid driver
+	- Driver
+	- Test software to control solenoid with simple button
+	
+
+
+Soil Moisture Sensor
+1. Create interface board, Wiring
+2. Create ESP32 Driver for soil moister sensor
+	- Driver
+	- How to calibrate sensor
+	- Test software
+
+
+
+Create ESP32 main board
+- Solenoid control section
+- Soil sensor and others sensor interface
+- ESP32 section + 12V-to-5V PSU
+	
+	
+
+Combine & Create ControlBox (Manual Control)
+
+/******************** IoT ControlBox Phase *********************/
+Use WIFI on ESP32
+- Setup WIFI on ESP32 to connect to any router
+
+
+HTTP/MQTT Client on ESP32
+1. Software for HTTP client/or server on ESP32 to monitor tag
+2. Software for MQTT client on ESP32 to monitor tag with MQTT server (RaspberryPi)
+
+3. Select which one should we use MQTT or HTTP?
