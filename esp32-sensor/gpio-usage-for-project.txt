@@ -1,0 +1,26 @@
+ESP32-board:ESP32-devkit-v1
+
+******* GPIO list *******
+
+ESP32 Board's LED
+- D2  / GPIO_NUM_2
+
+Solenoid CTRL Pin
+- D4 / GPIO_NUM_4
+
+User Button for Manual Irrigation Control
+- D15 / GPIO_NUM_15
+
+I2C Interface for Temperature Sensor or LCD etc.
+- D21, D22 -> I2C Interface for Temperature Sensor or LCD module
+
+SPI Interface for SDCard, LCD etc.
+- D5  -> CS
+- D18 -> SCLK
+- D19 -> MISO
+- D23 -> MOSI
+
+ADC for Moisture Sensor
+- D34 / GPIO_NUM_34 / A6
+
+
